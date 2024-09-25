@@ -41,7 +41,7 @@ UNIVERSITAS LAMBUNG MANGKURAT
 
 #### PENDAHULUAN
 
-Pemrosesan citra digital merupakan salah satu bidang yang berkembang pesat seiring dengan kemajuan teknologi informasi dan komunikasi. Dengan meningkatnya penggunaan kamera digital, smartphone, dan perangkat pencitraan lainnya, pengolahan citra telah menjadi bagian integral dalam berbagai aplikasi, mulai dari pengenalan wajah hingga analisis medis. Tujuan utama dari pemrosesan citra digital adalah untuk meningkatkan kualitas gambar atau mengekstrak informasi yang berguna dari citra tersebut. Dalam tugas ini, kami akan mengeksplorasi berbagai teknik dan algoritma yang digunakan dalam pemrosesan citra, termasuk segmentasi, pengenalan pola, dan halftoning. Dengan memahami konsep-konsep dasar dan aplikasinya, diharapkan dapat memberikan wawasan yang lebih dalam mengenai pentingnya pemrosesan citra dalam kehidupan sehari-hari dan berbagai industri.
+Pemrosesan citra digital merupakan salah satu bidang yang berkembang pesat seiring dengan kemajuan teknologi informasi dan komunikasi. Dengan meningkatnya penggunaan kamera digital, smartphone, dan perangkat pencitraan lainnya, pengolahan citra telah menjadi bagian integral dalam berbagai aplikasi, mulai dari pengenalan wajah hingga analisis medis. Tujuan utama dari pemrosesan citra digital adalah untuk meningkatkan kualitas gambar atau mengekstrak informasi yang berguna dari citra tersebut. Dalam tugas ini, kami akan mengeksplorasi berbagai teknik dan algoritma yang digunakan dalam pemrosesan citra. Dengan memahami konsep-konsep dasar dan aplikasinya, diharapkan dapat memberikan wawasan yang lebih dalam mengenai pentingnya pemrosesan citra dalam kehidupan sehari-hari dan berbagai industri.
 
 ---
 
