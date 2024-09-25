@@ -54,9 +54,9 @@ Pemrosesan citra digital merupakan salah satu bidang yang berkembang pesat seiri
 1. Pengertian Halftoning  
 Proses yang menghasilkan pola biner titik-titik hitam dan putih dari sebuah gambar disebut halftoning. Ada 2 teknik dalam halftoning yaitu Patterning dan Dithering.
 ##### 2. Patterning  
-1. Pengertian Patterning
+1. Pengertian Patterning  
 Patterning adalah teknik halftoning digital sederhana yang melibatkan penggantian setiap piksel dengan pola yang diambil dari font biner.
-2. Langkah-langkah Patterning
+2. Langkah-langkah Patterning  
     * Mengkonversi gambar ke skala abu-abu
     * Memilih pattern berdasarkan tingkat keabuan.
     * Mengganti pixel dengan pattern yang ditentukan
@@ -64,12 +64,12 @@ Patterning adalah teknik halftoning digital sederhana yang melibatkan penggantia
 
         <img src="ss.png" width="400" height="214">
 
-3. Cara menghitung Patterning
+3. Cara menghitung Patterning  
     * Menentukan tingkat keabuan dengan cara membagi 256 dengan 10 pattern yang ada.  
     * Hasilnya, pattern 0: 0-25, pattern 1: 26-51, pattern 3: 52-77, pattern 4: 104-129, pattern 5: 130-155, pattern 6: 156-181, pattern 7: 182-207, pattern 8: 208-233, pattern 9: 234-255.  
     * Mengganti pixel dengan tingkat keabuan yang cocok dengan pattern.  
 
-4. Contoh Patterning
+4. Contoh Patterning  
     * Contoh matrix 2x2:
 
             input gambar grayscale   mencocokkan tingkat keabuan dengan pattern
@@ -81,7 +81,7 @@ Patterning adalah teknik halftoning digital sederhana yang melibatkan penggantia
                                      pattern 4, pattern 1
                                      ---------  ---------]
 
-5. Algoritma pada Patterning
+5. Algoritma pada Patterning  
 
         function halftone(image):
             // Ambil dimensi gambar
@@ -127,14 +127,14 @@ Patterning adalah teknik halftoning digital sederhana yang melibatkan penggantia
 1. Pengertian Dithering  
 Dithering menciptakan output gambar dengan jumlah titik yang sama dengan jumlah pixel pada gambar sumber. Dithering dapat dilakukan dengan membatasi gambar terhadap matriks dither.
 
-3. Langkah-langkah Dithering
+2. Langkah-langkah Dithering  
     - Elemen matriks dither adalah batasnya.
     - Matriks diletakkan seperti ubin di seluruh gambar dan setiap nilai pixel dibandingkan dengan batas yang sesuai dari matriks.
     - Pixel menjadi putih jika nilainya melebihi batas atau menjadi hitam jika sebaliknya.
-4. Cara menghitung Dithering
+3. Cara menghitung Dithering  
     - Membandingkan matriks nilai pixel gambar dengan matriks dither sebagai batasnya
     - Jika pixel pada matriks gambar melebihi batas pada matriks dither, maka pixel tersebut menjadi putih dan sebaliknya
-5. Contoh Dithering
+4. Contoh Dithering  
 
         Matriks dither     Matriks gambar     Menghitung dither
 
@@ -145,7 +145,7 @@ Dithering menciptakan output gambar dengan jumlah titik yang sama dengan jumlah 
 
     <img src="dither.png" width="536" height="186">
 
-6. Algoritma pada Dithering
+5. Algoritma pada Dithering  
 
         for all x & y do
             if f(x,y) > m(x,y)
