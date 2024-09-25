@@ -51,9 +51,9 @@ Pemrosesan citra digital merupakan salah satu bidang yang berkembang pesat seiri
 
 
 ##### 1. Halftoning
-1. Pengertian Halftoning
+1. Pengertian Halftoning  
 Proses yang menghasilkan pola biner titik-titik hitam dan putih dari sebuah gambar disebut halftoning. Ada 2 teknik dalam halftoning yaitu Patterning dan Dithering.
-##### 2. Patterning
+##### 2. Patterning  
 1. Pengertian Patterning
 Patterning adalah teknik halftoning digital sederhana yang melibatkan penggantian setiap piksel dengan pola yang diambil dari font biner.
 2. Langkah-langkah Patterning
