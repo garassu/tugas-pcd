@@ -140,8 +140,8 @@ Dithering menciptakan output gambar dengan jumlah titik yang sama dengan jumlah 
 
         [0, 128            [243, 102,         [1, 0    243 > 0   ? = Putih (1)
         192, 64]            66,   12,]         0, 0]   102 > 128 ? = Hitam (0) 
-                                                       192 > 66  ? = Hitam (0)
-                                                       64  > 12  ? = Hitam (0)
+                                                       66 > 192  ? = Hitam (0)
+                                                       12  > 64  ? = Hitam (0)
 
     <img src="dither.png" width="536" height="186">
 
